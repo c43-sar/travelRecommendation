@@ -70,3 +70,27 @@ main {
   padding: 5rem 3rem;
   display: flex;
 }
+
+aside {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(00, 00, 00, 0.7);
+}
+
+.vLine {
+  width: 2px;
+  height: 18rem;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 5rem;
+}
+
+.output {
+    /* display: none; */
+    width: 48vw;
+}
