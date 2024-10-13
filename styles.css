@@ -17,6 +17,17 @@
   scroll-behavior: smooth;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  background-image: url("./pedro-menezes-Gisi_G8CXWI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 nav {
   display: flex;
   position: fixed;
@@ -69,6 +80,7 @@ main {
   height: 100vh;
   padding: 5rem 3rem;
   display: flex;
+  color: seashell;
 }
 
 aside {
@@ -91,6 +103,32 @@ aside {
 }
 
 .output {
-    /* display: none; */
-    width: 48vw;
+  /* display: none; */
+  width: 100vw;
+}
+
+.hero {
+  font-size: xx-large;
+  padding-left: 2vw;
+}
+
+.hero > * {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  color: whitesmoke;
+  /* background-color: slategray; */
+  background: linear-gradient(
+    to right,
+    rgb(5, 103, 107),
+    rgba(5, 104, 107, 0.632),
+    rgba(5, 104, 107, 0.332),
+    #ffffff00
+  );
+}
+
+footer > a {
+  color: cyan;
 }
