@@ -36,9 +36,9 @@ nav {
   align-items: center;
   background: linear-gradient(
     120deg,
-    rgb(30, 62, 60),
-    rgb(30, 62, 60),
-    rgb(100, 90, 90)
+    rgb(15, 31, 30),
+    rgb(34, 72, 69),
+    rgb(109, 145, 143)
   );
   top: 0;
   left: 0;
@@ -117,6 +117,10 @@ aside {
   padding-bottom: 2.5rem;
 }
 
+.hero > h1 {
+  font-weight: 800;
+}
+
 footer {
   color: whitesmoke;
   /* background-color: slategray; */
@@ -127,8 +131,37 @@ footer {
     rgba(5, 104, 107, 0.332),
     #ffffff00
   );
+  font-size: small;
+  font-weight: 100;
 }
 
 footer > a {
   color: cyan;
+  text-decoration-line: none;
+}
+
+.searchArea {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 15px;
+  border-color: #ffffff00;
+  border-width: 0;
+  min-width: 20vw;
+  min-height: 3vh;
+  background-color: aliceblue;
+}
+
+.searchArea > * {
+  border: none;
+  border-color: transparent;
+  background: transparent !important;
+  outline: none;
+}
+
+#searchBar {
+  border: none;
+  border-color: transparent;
+  background: transparent !important;
+  outline-style: none;
 }
