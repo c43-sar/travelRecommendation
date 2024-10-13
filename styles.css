@@ -1,0 +1,49 @@
+/* Inter CSS */
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+/* Custom CSS */
+nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  align-items: center;
+  background: linear-gradient(
+    120deg,
+    rgb(30, 62, 60),
+    rgb(30, 62, 60),
+    rgb(100, 90, 90)
+  );
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  transition: 0.3s ease-out;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul > li {
+  padding-right: 15px;
+  list-style: none;
+}
