@@ -10,6 +10,13 @@
 }
 
 /* Custom CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   position: fixed;
@@ -49,4 +56,17 @@ nav > ul {
 nav > ul > li {
   padding-right: 15px;
   list-style: none;
+}
+
+main {
+  background: linear-gradient(
+    to right,
+    rgb(5, 103, 107),
+    rgba(5, 104, 107, 0.632),
+    rgba(5, 104, 107, 0.332),
+    #ffffff00
+  );
+  height: 100%;
+  padding: 2rem 3rem;
+  display: flex;
 }
