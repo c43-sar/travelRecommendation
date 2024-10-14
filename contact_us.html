@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<Inter HTML Head>-->
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <!--<FontAwesome Setup>-->
+    <script
+      src="https://kit.fontawesome.com/aa8192111f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--<User HTML Head>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravGuy: Hotel Recommendations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">TravGuy</h1>
+        <ul>
+          <li><a href="./travel_recommendation.html">Home</a></li>
+          <li><a href="./about_us.html">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="searchArea">
+          <label for="searchBar">
+            <input
+              type="text"
+              name="searchBar"
+              id="searchBar"
+              placeholder="Search..."
+            />
+          </label>
+          <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          &nbsp;&nbsp;&nbsp;
+          <button id="clearBtn"><i class="fa-solid fa-delete-left"></i></button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="aside">
+        <div class="vLine"></div>
+        <i
+          class="fa-brands fa-x-twitter fa-2xl"
+          style="color: whitesmoke; padding-top: 2.5rem"
+        ></i>
+        <br />
+        <i
+          class="fa-brands fa-facebook fa-2xl"
+          style="color: whitesmoke; padding-top: 2.5rem"
+        ></i>
+        <br />
+        <i
+          class="fa-brands fa-instagram fa-2xl"
+          style="color: whitesmoke; padding-top: 2.5rem"
+        ></i>
+        <br />
+        <i
+          class="fa-brands fa-youtube fa-2xl"
+          style="color: whitesmoke; padding-top: 2.5rem"
+        ></i>
+      </div>
+      <div class="hero">
+        <h1>Contact TravGuy</h1>
+        <p>Fill in the form on the right side.</p>
+      </div>
+      <div class="contact_us_form">
+        <h3 class="results"></h3>
+        <form>
+          <label for="uname_full">
+            Name: <br />
+            <input type="text" name="uname_full" class="uform_input" />
+          </label>
+          <label for="user_email">
+            E-mail: <br />
+            <input type="email" name="user_email" class="uform_input" />
+          </label>
+          <label for="user_msg">
+            Message: <br />
+            <textarea name="user_msg" class="uform_input"></textarea>
+          </label>
+          <br />
+          <button class="uform_input_btn">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      Photo by
+      <a
+        href="https://unsplash.com/@pedromenezes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Pedro Menezes</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/aerial-photography-of-city-building-near-the-seashore-during-daytime-Gisi_G8CXWI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Unsplash</a
+      >
+    </footer>
+  </body>
+</html>
