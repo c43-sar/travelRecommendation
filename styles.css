@@ -103,7 +103,7 @@ aside {
 }
 
 .output {
-  /* display: none; */
+  display: none;
   width: 100vw;
 }
 
