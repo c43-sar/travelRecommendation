@@ -217,3 +217,8 @@ footer > a {
   list-style: none;
   padding-top: 8px;
 }
+
+.output {
+    max-height: fit-content !important;
+    overflow-y: auto;
+}
