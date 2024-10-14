@@ -128,3 +128,7 @@ function populateResults(data) {
   listItem.style.visibility = "visible";
   outList.style.visibility = "visible";
 }
+
+const options = { timeZone: 'Asia/Kolkata', hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric' };
+const newYorkTime = new Date().toLocaleTimeString('en-US', options);
+console.log("Current time in New York:", newYorkTime);
