@@ -107,9 +107,16 @@ aside {
   width: 100vw;
 }
 
+.members {
+    background-color: #333333aa;
+    font-size: larger;
+    /* width: 100vw; */
+}
+
 .hero {
   font-size: xx-large;
   padding-left: 2vw;
+  max-width: 50vw;
 }
 
 .hero > * {
