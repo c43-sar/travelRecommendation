@@ -172,3 +172,40 @@ footer > a {
   background: transparent !important;
   outline-style: none;
 }
+
+.contact_us_form {
+    margin-top: 15vh;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    background-color: #333333aa;
+    border-color: #ffffff00;
+    border-radius: 10px;
+    width: 48vw;
+    max-height: 50vh;
+}
+
+.uform_input {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    border-color: #dcdcdcaa;
+    background-color: #ffffff00;
+    color: aliceblue;
+    line-height: 1.2rem;
+    width: 93%;
+}
+
+.uform_tarea {
+    height: 15vh;
+}
+
+.uform_input_btn {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 93%;
+    border-radius: 10px;
+    border-color: #ffffff00;
+    background-color: #008b8bcc;
+    color: #f0f8ffcc;
+    font-weight: 600;
+}
